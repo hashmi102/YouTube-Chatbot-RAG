@@ -5,6 +5,8 @@ A Streamlit app that allows users to ask questions about **any YouTube video** w
 Powered by **OpenAI**, **LangChain**, and **FAISS** for retrieval-augmented generation (RAG).
 
 ---
+![image alt]()
+---
 
 ## Features
 
