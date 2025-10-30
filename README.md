@@ -8,20 +8,40 @@ Powered by **OpenAI**, **LangChain**, and **FAISS** for retrieval-augmented gene
 ![image alt](https://github.com/hashmi102/YouTube-Chatbot-RAG/blob/main/demo.jpg?raw=true)
 ---
 
-## Features
+🚀 Features
 
-- Paste any YouTube video URL and get answers from its subtitles.  
-- Supports **manual and auto-generated English subtitles**.  
-- Uses **GPT-4o-mini** for AI-powered Q&A.  
-- Handles **long transcripts** using chunking and embeddings.  
-- Fully **interactive via browser using Streamlit**.  
+✅ Paste any YouTube video URL and ask natural questions about it.
+✅ Automatically fetches video transcripts (manual or auto-generated).
+✅ Implements Recursive Chunking for context preservation.
+✅ Uses OpenAI Embeddings (text-embedding-3-small) + FAISS Vector Store for fast semantic search.
+✅ Built with GPT-4o-mini for intelligent and contextual responses.
+✅ Maintains small temporary chat history for multi-turn interaction.
+✅ Fully interactive web UI via Streamlit.
 
 ---
 
 ## Installation
 
-1. **Clone the repository (optional if running locally)**
+1️⃣ Clone the Repository (optional if running locally)**
 
 ```bash
 git clone https://github.com/yourusername/YouTube-Chatbot-RAG.git
 cd YouTube-Chatbot-RAG
+
+2️⃣ Create a Virtual Environment
+python -m venv venv
+source venv/bin/activate    # On macOS/Linux
+venv\Scripts\activate       # On Windows
+
+3️⃣ Install Required Libraries
+pip install -r requirements.txt
+
+4️⃣ Set Your OpenAI API Key
+
+Create a .env file in the project root:
+OPENAI_API_KEY=your_openai_api_key_here
+
+5️⃣ Run the App
+streamlit run app.py
+
+
