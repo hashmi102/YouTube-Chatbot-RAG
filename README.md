@@ -5,9 +5,11 @@ A Streamlit app that allows users to ask questions about **any YouTube video** w
 Powered by **OpenAI**, **LangChain**, and **FAISS** for retrieval-augmented generation (RAG).
 
 ---
-![image alt](https://github.com/hashmi102/YouTube-Chatbot-RAG/blob/main/demo.jpg?raw=true)
+![image alt](https://github.com/hashmi102/YouTube-Chatbot-RAG/blob/main/demo_ss1.jpg?raw=true)
 ---
+![image alt](https://github.com/hashmi102/YouTube-Chatbot-RAG/blob/main/demo_ss2.jpg?raw=true)
 
+---
 🚀 Features
 
 ✅ Paste any YouTube video URL and ask natural questions about it.
