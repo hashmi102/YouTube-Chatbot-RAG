@@ -12,7 +12,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 # ========== Load API Key ==========
 load_dotenv()
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+os.environ["OPENAI_API_KEY"] = os.getenv(#Paste Your OpenAI key)
 
 # ========== Subtitle Download ==========
 def download_subtitles(video_url, output_file="subtitle.vtt"):
@@ -154,3 +154,4 @@ if st.session_state.chat_history:
         st.markdown(f"**You:** {chat['question']}")
         st.markdown(f"**Bot:** {chat['answer']}")
         st.markdown("---")
+
