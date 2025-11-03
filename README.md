@@ -6,7 +6,7 @@ Powered by **OpenAI**, **LangChain**, and **FAISS** for retrieval-augmented gene
 
 ---
 ![image alt](https://github.com/hashmi102/YouTube-Chatbot-RAG/blob/main/demo_ss1.jpg?raw=true)
----
+
 ![image alt](https://github.com/hashmi102/YouTube-Chatbot-RAG/blob/main/demo_ss2.jpg?raw=true)
 
 ---
