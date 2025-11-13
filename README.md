@@ -17,7 +17,7 @@ Powered by **OpenAI**, **LangChain**, and **FAISS** for retrieval-augmented gene
 ✅ Implements Recursive Chunking for context preservation.
 ✅ Uses OpenAI Embeddings (text-embedding-3-small) + FAISS Vector Store for fast semantic search.
 ✅ Built with GPT-4o-mini for intelligent and contextual responses.
-✅ Maintains small temporary chat history for multi-turn interaction.
+✅ Maintains a short chat history for multi-turn interactions.
 ✅ Fully interactive web UI via Streamlit.
 
 ---
