@@ -32,7 +32,6 @@ cd YouTube-Chatbot-RAG
 
 2️⃣ Create a Virtual Environment
 python -m venv venv
-source venv/bin/activate    # On macOS/Linux
 venv\Scripts\activate       # On Windows
 
 3️⃣ Install Required Libraries
