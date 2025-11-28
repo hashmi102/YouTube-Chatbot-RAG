@@ -12,7 +12,7 @@ Powered by **OpenAI**, **LangChain**, and **FAISS** for retrieval-augmented gene
 ---
 🚀 Features
 
-✅ Paste any YouTube video URL and ask natural questions about it.
+✅Ask natural questions about YouTube videos by providing a URL.
 ✅ Automatically fetches video transcripts (manual or auto-generated).
 ✅ Implements Recursive Chunking for context preservation.
 ✅ Uses OpenAI Embeddings (text-embedding-3-small) + FAISS Vector Store for fast semantic search.
